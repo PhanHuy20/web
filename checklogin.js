@@ -51,10 +51,6 @@ function checkReigesterForm() {
   return true;
 }
 
-function submitre() {
-  window.location.href = "login.html";
-}
-
 function checkLoginForm() {
   var email = document.getElementById('email').value;
   var password = document.getElementById('password').value;
@@ -79,10 +75,6 @@ function checkLoginForm() {
   return true;
 }
 
-function submitLog() {
-  window.location.href = "index.html";
-}
-
 function addToCart() {
   alert("Sản phẩm đã được thêm vào giỏ hàng!");
 }
@@ -96,3 +88,6 @@ function contactForm() {
   alert("Gửi lời nhắn thành công, vui lòng đợi phản hồi!");
 }
 
+function payment() {
+  alert("Xác nhận mua hàng thành công!");
+}
