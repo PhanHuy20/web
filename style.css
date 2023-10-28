@@ -197,6 +197,30 @@ img {
     background: #ff5313;
 }
 
+.payment-container input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.payment-container input[type=submit] {
+    background-color: #e43e3e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.payment-container input[type=submit]:hover {
+    opacity: 1;
+}
+
 input[name=fullname],
 .ContactForm input[type=text],
 input[type=tel],
@@ -691,6 +715,19 @@ ul.dropdown-menu>li>a:hover {
 
 .option-cart-item .checkout {
     float: right;
+}
+
+.payment-container {
+    width: 500px;
+    padding: 16px;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h2 {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .hom-slider {
